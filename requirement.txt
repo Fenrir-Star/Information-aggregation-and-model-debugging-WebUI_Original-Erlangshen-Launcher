@@ -1,0 +1,19 @@
+# 核心模型依赖
+torch
+transformers
+
+# WebUI界面
+gradio
+
+# 数据处理和CSV操作
+pandas
+# 注：quick_start.py中导入了pandas用于更稳定的CSV读取。
+
+# 爬虫/网络请求/解析依赖
+requests
+lxml
+pyquery
+DrissionPage
+# lxml 用于 baidu_news_spider.py 的 etree 解析
+# pyquery 用于 research_paper_spider.py 的 HTML 解析
+# DrissionPage 用于 lenovo_app_spider.py 的浏览器自动化爬虫
